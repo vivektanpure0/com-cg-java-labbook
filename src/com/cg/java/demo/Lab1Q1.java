@@ -12,7 +12,8 @@ public class Lab1Q1 {
 		int rem, sum=0;
 		
 		//Loop over a number
-		while(num>0) {
+		while(num>0)
+		{
 			rem = num%10;
 			sum = sum+(rem*rem*rem);
 			num = num/10;
