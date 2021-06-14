@@ -1,7 +1,7 @@
 package com.cg.java.demo;
 import java.util.Scanner;
 
-public class Lab3Q3 {
+public class Lab3Q2 {
 
 	
 	    public  void getImage (String str) {
@@ -14,7 +14,7 @@ public class Lab3Q3 {
 	        Scanner sc = new Scanner(System.in);
 	        System.out.println("Enter the String ");
 	        String str = sc.next();
-	        Lab3Q3 lb = new Lab3Q3();
+	        Lab3Q2 lb = new Lab3Q2();
 	        lb.getImage(str);
 	    }
 	}
