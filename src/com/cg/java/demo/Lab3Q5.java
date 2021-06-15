@@ -14,7 +14,7 @@ public class Lab3Q5 {
 //			System.out.println("Number of lines: " + str.split("\n"));
 
 			System.out.println("Number of characters: " + str.length());
-
+  
 		}
-
+ 
 	}
