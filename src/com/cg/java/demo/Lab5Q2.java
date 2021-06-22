@@ -21,8 +21,8 @@ public class Lab5Q2 {
 	}
 
 	public static void main(String[] args) {
-		String firstName = "Darshan";
-		String lastName = "Darane";
+		String firstName = "Vivek";
+		String lastName = "Tanpure";
 		try {
 			validate(firstName, lastName);
 		} catch (MyException2 me) {
