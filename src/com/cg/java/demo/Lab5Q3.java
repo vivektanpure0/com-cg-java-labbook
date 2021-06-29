@@ -16,7 +16,7 @@ public class Lab5Q3 {
 		}
 	}
 
-		void validateSalary(double salary) throws EmployeeException {
+	void validateSalary(double salary) throws EmployeeException {
 			if(salary < 3000) {
 				throw new EmployeeException("Salary is below 3000 ...");
 			}
@@ -25,7 +25,7 @@ public class Lab5Q3 {
 			}
 		}
 		
-		public static void main(String[] args) {
+	public static void main(String[] args) {
 			Scanner sc = new Scanner(System.in);
 			System.out.println("What is the salary of employee ? ");
 			double salary = sc.nextDouble();
