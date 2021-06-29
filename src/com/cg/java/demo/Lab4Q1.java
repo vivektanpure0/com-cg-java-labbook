@@ -7,24 +7,21 @@ import java.util.Scanner;
 
 public class Lab4Q1 {
 	
-	static void AgeDefine() {
-			int age = 0;
-			if ( age <15) {
-		System.out.println("Age is above 15");
-	}else {
-		System.out.println("Age is below 15");
-	}
-		}
 
 
-
-		public static void main(String[] args) {
+	public static void main(String[] args) {
 			
-			int age1;
+//			int age = 0;
 			Scanner sc = new Scanner(System.in);
 			System.out.println("enter the age -");
-			int age1 = sc.nextInt();
-			System.out.println(age1);
+			int age = sc.nextInt();
+			if(age >= 15) {
+				System.out.println("Age is above 15");
+			}else {
+				System.out.println("Age is below 15");
+			}
+			System.out.println(age);
+			
 			sc.close();
 		}
 			
